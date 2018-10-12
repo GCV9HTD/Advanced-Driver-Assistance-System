@@ -88,7 +88,7 @@ while True:
 		else:
                     COUNTER=0
 
-		if COUNTER >= 10:
+		if COUNTER >= 20:
                     cv2.putText(frame,'stay awake', (30, 50),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
                     t_end = time.time() + 10
